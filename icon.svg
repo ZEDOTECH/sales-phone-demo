@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <style>
+    .ring { stroke-width: 6.5; }
+    .separation { stroke-width: 11.5; }
+    @media (max-width: 20px) {
+      .ring { stroke-width: 7.5; }
+      .separation { stroke-width: 13.5; }
+    }
+  </style>
+  <circle cx="32" cy="32" r="32" fill="#ffcb2f"/>
+  <g transform="translate(4 4) scale(.88)" stroke-linecap="round" stroke-linejoin="round">
+    <path class="ring" d="M21 39L15 45A10 10 0 0 1 1 31L20 12A10 10 0 0 1 34 26L28 32" transform="translate(8 0)" stroke="#1e1e22"/>
+    <path class="separation" d="M35 25L41 19A10 10 0 0 1 55 33L36 52A10 10 0 0 1 22 38L28 32" stroke="#ffcb2f"/>
+    <path class="ring" d="M35 25L41 19A10 10 0 0 1 55 33L36 52A10 10 0 0 1 22 38L28 32" stroke="#1e1e22"/>
+  </g>
+</svg>
